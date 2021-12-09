@@ -53,8 +53,8 @@ main{
      color: #99A799;
 }
 .contact .fa{
-     font-size: 1.5rem;
-     margin-left: .5rem;
+     font-size: 1.2rem;
+     margin-left: .2rem;
 }
 .main-content{
      display: grid;
@@ -111,12 +111,14 @@ main{
      text-transform: uppercase;
      font-size: 1.1rem;
      font-weight: 500;
-     color: #737973;
+     color: #b0b9b0;
 }
 .tl-title-2{
      position: relative;
+     font-size: 1rem;
+     font-weight: 500;
      text-transform: uppercase;
-     color: #737973;
+     color: #b0b9b0;
 }
 .tl-title-2::before{
      content: '';
@@ -126,7 +128,7 @@ main{
      border-radius: 50%;
      background: #064663;
      left: -22px;
-     top: 3px;
+     top: 7px;
 }
 .para{
      padding:10px 0;
