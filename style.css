@@ -25,13 +25,31 @@ body{
      display: flex;
      flex-direction: column;
 }
-.contact label[for="name"]{
+.contact h1{
      font-weight: bolder;
-     font-size: larger;
+     font-size: 35px;
+     text-transform: uppercase;
+}
+.contact h2{
+     font-size: 24px;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     color: #555555;
+
 }
 .social-links{
      display: flex;
      flex-direction: column;
+     text-align: right;
+}
+.social-links a, label{
+     color: black;
+     text-decoration: none;
+}
+.education h2{
+     border-bottom: 3px solid black;
+     margin-bottom: 15px;
+     width: 50%;
 }
 .education table{
      border: 2px solid black;
@@ -52,6 +70,10 @@ body{
      display: flex;
      flex-direction: column;
      gap: 15px;
+     flex: 1;
+}
+.left-section h2{
+     border-bottom: 3px solid black;
 }
 .left-section .skills{
      display: flex;
@@ -66,4 +88,7 @@ body{
 .skill{
      display: flex;
      flex-direction: column;
+}
+.right-section{
+     flex: 1;
 }
