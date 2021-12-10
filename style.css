@@ -32,6 +32,12 @@ main{
      align-items: center;
      gap: 1rem;
 }
+.developer-info{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
 .developer img{
      width: 150px;
      height: 150px;
